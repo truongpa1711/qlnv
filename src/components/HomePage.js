@@ -36,8 +36,8 @@ function HomePage(props) {
             let url = "https://64bfca600d8e251fd1116f33.mockapi.io/truongpa/nhanvien/" + item.id;
             axios.delete(url)
                 .then(res => {
-                    alert("Xóa thành công!");
-                    pb(); nv();
+                    
+                    pb(); nv();alert("Xóa thành công!");
                 })
                 .catch(err => console.error(err));
         }
