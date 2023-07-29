@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import imgUpdate from "../img/update.jpg";
 import imgDelete from "../img/delete.jpg";
+import '../App.css';
 
 function HomePage(props) {
     const [phongban, setPhongban] = useState([]);
